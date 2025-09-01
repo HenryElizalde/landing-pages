@@ -287,7 +287,34 @@
 
     <script src="js/scripts.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    
+    <script src="js/animacion.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+        
+        sr.reveal('.nabvar-scroll', {
+            duration: 1000,
+            origin: 'bottom',
+            distance: '-100px'
+        });
+
+        sr.reveal('.masthead', {
+            duration: 1000,
+            origin: 'bottom',
+            distance: '100px',
+        });
+
+        sr.reveal('.features-icons', {
+            duration: 2000,
+            origin: 'right',
+            distance: '100px',
+        });
+
+        sr.reveal('.showcase', {
+            duration: 2000,
+            origin: 'letf',
+            distance: '100px',
+        });
+    </script>
 </body>
 
 </html>
